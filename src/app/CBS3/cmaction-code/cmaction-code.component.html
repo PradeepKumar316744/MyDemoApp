@@ -1,0 +1,21 @@
+<h2 style="text-align: center">CMActionCode</h2>
+
+<div class="container">
+  <div class="card card-body mb-sm-2" style="background-color:darkgray;">
+    <div class="row" style="font-weight: bold">
+      <div class="col-sm-4">Action Code</div>
+      <div class="col-sm-4">Action Suffix</div>
+      <div class="col-sm-4">Description</div>
+    </div>
+  </div>
+
+  <div class="card" *ngFor="let post of CMactionCode">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-4">{{ post.action_Code }}</div>
+        <div class="col-sm-4">{{ post.action_Suffix }}</div>
+        <div class="col-sm-4">{{ post.description }}</div>
+      </div>
+    </div>
+  </div>
+</div>
