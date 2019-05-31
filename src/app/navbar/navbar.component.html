@@ -1,15 +1,13 @@
 <mat-toolbar color="primary">
-  <mat-toolbar-row>
+	<mat-toolbar-row>
     <button mat-icon-button [matMenuTriggerFor]="vertic">
       <mat-icon>menu</mat-icon>
     </button>
 
-    <mat-menu #vertic="matMenu">
+		<span><img class="logo" hspace="10" align="top" src="../assets/Logo.png"/></span>
+    <h1 style="text-emphasis: Logo;">CBS3</h1>
 
-    </mat-menu>
-    <span>CBS3 </span>
-
-    <div fxFlex fxLayout fxLayoutAlign="flex-end">
+     <div fxFlex fxLayout fxLayoutAlign="flex-end">
       <ul fxLayout fxLayoutGap="20px">
         <li fxHide.xs>
           <button mat-icon-button>
@@ -36,5 +34,9 @@
         </li>
       </ul>
     </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span></span>
   </mat-toolbar-row>
 </mat-toolbar>

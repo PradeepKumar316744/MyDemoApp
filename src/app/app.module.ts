@@ -56,6 +56,8 @@ import {
   MatTreeModule
 } from '@angular/material';
 import { LoginComponent } from './CBS3/login/login.component';
+import { BagsColorCodeComponent } from './CBS3/bags-color-code/bags-color-code.component';
+import { SidenavComponent } from './CBS3/sidenav/sidenav.component';
 
 
 
@@ -65,7 +67,9 @@ import { LoginComponent } from './CBS3/login/login.component';
     CMActionCodeComponent,
     NavbarComponent,
     PlantrecipelogComponent,
-    LoginComponent
+    LoginComponent,
+    BagsColorCodeComponent,
+    SidenavComponent
   ],
   imports: [
     FlexLayoutModule,

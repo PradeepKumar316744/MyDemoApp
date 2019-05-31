@@ -89,6 +89,62 @@ var CMActionCodeComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/CBS3/login/login.component.css":
+/*!************************************************!*\
+  !*** ./src/app/CBS3/login/login.component.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL0NCUzMvbG9naW4vbG9naW4uY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/CBS3/login/login.component.html":
+/*!*************************************************!*\
+  !*** ./src/app/CBS3/login/login.component.html ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<mat-toolbar>My APP</mat-toolbar>\n"
+
+/***/ }),
+
+/***/ "./src/app/CBS3/login/login.component.ts":
+/*!***********************************************!*\
+  !*** ./src/app/CBS3/login/login.component.ts ***!
+  \***********************************************/
+/*! exports provided: LoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var LoginComponent = /** @class */ (function () {
+    function LoginComponent() {
+    }
+    LoginComponent.prototype.ngOnInit = function () {
+    };
+    LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-login',
+            template: __webpack_require__(/*! ./login.component.html */ "./src/app/CBS3/login/login.component.html"),
+            styles: [__webpack_require__(/*! ./login.component.css */ "./src/app/CBS3/login/login.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], LoginComponent);
+    return LoginComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/CBS3/plantrecipelog/plantrecipelog.component.css":
 /*!******************************************************************!*\
   !*** ./src/app/CBS3/plantrecipelog/plantrecipelog.component.css ***!
@@ -96,7 +152,7 @@ var CMActionCodeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "table.dataTable thead .sorting:after,\r\ntable.dataTable thead .sorting:before,\r\ntable.dataTable thead .sorting_asc:after,\r\ntable.dataTable thead .sorting_asc:before,\r\ntable.dataTable thead .sorting_asc_disabled:after,\r\ntable.dataTable thead .sorting_asc_disabled:before,\r\ntable.dataTable thead .sorting_desc:after,\r\ntable.dataTable thead .sorting_desc:before,\r\ntable.dataTable thead .sorting_desc_disabled:after,\r\ntable.dataTable thead .sorting_desc_disabled:before {\r\nbottom: .5em;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQ0JTMy9wbGFudHJlY2lwZWxvZy9wbGFudHJlY2lwZWxvZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7O0FBVUEsWUFBWTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvQ0JTMy9wbGFudHJlY2lwZWxvZy9wbGFudHJlY2lwZWxvZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUuZGF0YVRhYmxlIHRoZWFkIC5zb3J0aW5nOmFmdGVyLFxyXG50YWJsZS5kYXRhVGFibGUgdGhlYWQgLnNvcnRpbmc6YmVmb3JlLFxyXG50YWJsZS5kYXRhVGFibGUgdGhlYWQgLnNvcnRpbmdfYXNjOmFmdGVyLFxyXG50YWJsZS5kYXRhVGFibGUgdGhlYWQgLnNvcnRpbmdfYXNjOmJlZm9yZSxcclxudGFibGUuZGF0YVRhYmxlIHRoZWFkIC5zb3J0aW5nX2FzY19kaXNhYmxlZDphZnRlcixcclxudGFibGUuZGF0YVRhYmxlIHRoZWFkIC5zb3J0aW5nX2FzY19kaXNhYmxlZDpiZWZvcmUsXHJcbnRhYmxlLmRhdGFUYWJsZSB0aGVhZCAuc29ydGluZ19kZXNjOmFmdGVyLFxyXG50YWJsZS5kYXRhVGFibGUgdGhlYWQgLnNvcnRpbmdfZGVzYzpiZWZvcmUsXHJcbnRhYmxlLmRhdGFUYWJsZSB0aGVhZCAuc29ydGluZ19kZXNjX2Rpc2FibGVkOmFmdGVyLFxyXG50YWJsZS5kYXRhVGFibGUgdGhlYWQgLnNvcnRpbmdfZGVzY19kaXNhYmxlZDpiZWZvcmUge1xyXG5ib3R0b206IC41ZW07XHJcbn1cclxuIl19 */"
+module.exports = "table {\r\n  width: 100%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvQ0JTMy9wbGFudHJlY2lwZWxvZy9wbGFudHJlY2lwZWxvZy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztBQUNiIiwiZmlsZSI6InNyYy9hcHAvQ0JTMy9wbGFudHJlY2lwZWxvZy9wbGFudHJlY2lwZWxvZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGFibGUge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -107,7 +163,7 @@ module.exports = "table.dataTable thead .sorting:after,\r\ntable.dataTable thead
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2 style=\"text-align: center\">Plant Recipe Log</h2>\n\n<div class=\"container\">\n  <table\n    id=\"dtBasicExample\"\n    class=\"table table-striped table-dark\"\n    cellspacing=\"0\"\n    width=\"100%\"\n  >\n    <thead>\n      <tr>\n        <th class=\"th-sm\">Plant</th>\n        <th class=\"th-sm\">Compound</th>\n        <th class=\"th-sm\">Prv Var</th>\n        <th class=\"th-sm\">Prv Issue</th>\n        <th class=\"th-sm\">Rule Description</th>\n        <th class=\"th-sm\">User Name</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let post of plantRecipes\">\n        <td>{{ post.dotCode }}</td>\n        <td>{{ post.comId }}</td>\n        <td>{{ post.prvVar }}</td>\n        <td>{{ post.prvIssue }}</td>\n        <td>{{ post.ruleDescription }}</td>\n        <td>{{ post.userName }}</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n"
+module.exports = "\n<mat-card style=\"text-align: center; font-size: xx-large\">Plant Recipe Log</mat-card>\n\n<div class=\"mat-elevation-z8\">\n  <table mat-table [dataSource]=\"dataSource\">\n\n    <!-- Position Column -->\n    <ng-container matColumnDef=\"dotCode\">\n      <th mat-header-cell *matHeaderCellDef> Plant </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.dotCode}} </td>\n    </ng-container>\n\n    <!-- Name Column -->\n    <ng-container matColumnDef=\"comId\">\n      <th mat-header-cell *matHeaderCellDef> Compound </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.comId}} </td>\n    </ng-container>\n\n    <!-- Weight Column -->\n    <ng-container matColumnDef=\"prvVar\">\n      <th mat-header-cell *matHeaderCellDef> Prv Var </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.prvVar}} </td>\n    </ng-container>\n\n    <!-- Symbol Column -->\n    <ng-container matColumnDef=\"prvIssue\">\n      <th mat-header-cell *matHeaderCellDef> Prv Issue </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.prvIssue}} </td>\n    </ng-container>\n\n     <!-- Symbol Column -->\n     <ng-container matColumnDef=\"ruleDescription\">\n      <th mat-header-cell *matHeaderCellDef> Rule Description </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.ruleDescription}} </td>\n    </ng-container>\n\n    <!-- Symbol Column -->\n    <ng-container matColumnDef=\"userName\">\n      <th mat-header-cell *matHeaderCellDef> User Name </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.userName}} </td>\n    </ng-container>\n\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n  </table>\n\n  <mat-paginator [pageSizeOptions]=\"[5, 10, 20]\" showFirstLastButtons></mat-paginator>\n</div>\n\n"
 
 /***/ }),
 
@@ -124,19 +180,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var src_app_Services_plantrecipeapi_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/Services/plantrecipeapi.service */ "./src/app/Services/plantrecipeapi.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+
+
 
 
 
 var PlantrecipelogComponent = /** @class */ (function () {
     function PlantrecipelogComponent(plantRecipeService) {
         this.plantRecipeService = plantRecipeService;
+        this.displayedColumns = ['dotCode', 'comId', 'prvVar', 'prvIssue', 'ruleDescription', 'userName'];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTableDataSource"]();
     }
     PlantrecipelogComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.plantRecipeService.getPlantRecipe().subscribe(function (data) {
-            _this.plantRecipes = data;
+            _this.dataSource.data = data;
+            _this.dataSource.paginator = _this.paginator;
         });
     };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatPaginator"]),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatPaginator"])
+    ], PlantrecipelogComponent.prototype, "paginator", void 0);
     PlantrecipelogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-plantrecipelog',
@@ -296,7 +362,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<div class=\"container\">\n  <!-- <app-plantrecipelog></app-plantrecipelog> -->\n  <router-outlet></router-outlet>\n</div>\n\n"
+module.exports = "<app-navbar></app-navbar>\n<div class=\"container\">\n  <!-- <app-plantrecipelog></app-plantrecipelog> -->\n   <router-outlet></router-outlet>\n\n</div>\n"
 
 /***/ }),
 
@@ -354,6 +420,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CBS3_plantrecipelog_plantrecipelog_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CBS3/plantrecipelog/plantrecipelog.component */ "./src/app/CBS3/plantrecipelog/plantrecipelog.component.ts");
 /* harmony import */ var _Services_plantrecipeapi_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Services/plantrecipeapi.service */ "./src/app/Services/plantrecipeapi.service.ts");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/cdk/scrolling */ "./node_modules/@angular/cdk/esm5/scrolling.es5.js");
+/* harmony import */ var _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/cdk/stepper */ "./node_modules/@angular/cdk/esm5/stepper.es5.js");
+/* harmony import */ var _angular_cdk_table__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/cdk/table */ "./node_modules/@angular/cdk/esm5/table.es5.js");
+/* harmony import */ var _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/cdk/tree */ "./node_modules/@angular/cdk/esm5/tree.es5.js");
+/* harmony import */ var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/cdk/portal */ "./node_modules/@angular/cdk/esm5/portal.es5.js");
+/* harmony import */ var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/cdk/a11y */ "./node_modules/@angular/cdk/esm5/a11y.es5.js");
+/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/cdk/drag-drop */ "./node_modules/@angular/cdk/esm5/drag-drop.es5.js");
+/* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/flex-layout */ "./node_modules/@angular/flex-layout/esm5/flex-layout.es5.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _CBS3_login_login_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./CBS3/login/login.component */ "./src/app/CBS3/login/login.component.ts");
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -375,13 +461,101 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
                 _CBS3_cmaction_code_cmaction_code_component__WEBPACK_IMPORTED_MODULE_6__["CMActionCodeComponent"],
                 _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"],
-                _CBS3_plantrecipelog_plantrecipelog_component__WEBPACK_IMPORTED_MODULE_9__["PlantrecipelogComponent"]
+                _CBS3_plantrecipelog_plantrecipelog_component__WEBPACK_IMPORTED_MODULE_9__["PlantrecipelogComponent"],
+                _CBS3_login_login_component__WEBPACK_IMPORTED_MODULE_21__["LoginComponent"]
             ],
             imports: [
+                _angular_flex_layout__WEBPACK_IMPORTED_MODULE_19__["FlexLayoutModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__["BrowserAnimationsModule"]
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__["BrowserAnimationsModule"],
+                _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_17__["A11yModule"],
+                _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_13__["CdkStepperModule"],
+                _angular_cdk_table__WEBPACK_IMPORTED_MODULE_14__["CdkTableModule"],
+                _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_15__["CdkTreeModule"],
+                _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_18__["DragDropModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatAutocompleteModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatBadgeModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatBottomSheetModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatButtonToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatCardModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatCheckboxModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatChipsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatStepperModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatDatepickerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatDialogModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatDividerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatExpansionModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatGridListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatMenuModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatNativeDateModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatPaginatorModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatProgressBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatProgressSpinnerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatRadioModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatRippleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSelectModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSidenavModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSliderModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSnackBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSortModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTableModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTabsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTooltipModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTreeModule"],
+                _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_16__["PortalModule"],
+                _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_12__["ScrollingModule"]
+            ],
+            exports: [
+                _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_17__["A11yModule"],
+                _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_13__["CdkStepperModule"],
+                _angular_cdk_table__WEBPACK_IMPORTED_MODULE_14__["CdkTableModule"],
+                _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_15__["CdkTreeModule"],
+                _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_18__["DragDropModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatAutocompleteModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatBadgeModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatBottomSheetModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatButtonModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatButtonToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatCardModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatCheckboxModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatChipsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatStepperModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatDatepickerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatDialogModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatDividerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatExpansionModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatGridListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatListModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatMenuModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatNativeDateModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatPaginatorModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatProgressBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatProgressSpinnerModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatRadioModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatRippleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSelectModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSidenavModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSliderModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSlideToggleModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSnackBarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatSortModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTableModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTabsModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatToolbarModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTooltipModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_20__["MatTreeModule"],
+                _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_16__["PortalModule"],
+                _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_12__["ScrollingModule"],
             ],
             providers: [_Services_cmaction_api_service__WEBPACK_IMPORTED_MODULE_7__["CMActionAPIService"], _Services_plantrecipeapi_service__WEBPACK_IMPORTED_MODULE_10__["PlantrecipeapiService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
@@ -412,7 +586,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand  navbar-dark bg-primary\" >\n  <a class=\"navbar-brand\" href=\"#\" style=\"color: white\">CBS3</a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" >\n    <ul class=\"navbar-nav mr-auto\" >\n      <li class=\"nav-item active dropdown\">\n        <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n          Services\n        </a>\n        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n          <a class=\"dropdown-item\" href=\"#\" [routerLink]=\"['/PlantRecipe']\">Plant Recipe Log</a>\n          <a class=\"dropdown-item\" href=\"#\" [routerLink]=\"['/CMActionCode']\">CM Action Code</a>\n          <div class=\"dropdown-divider\"></div>\n          <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n        </div>\n      </li>\n\n    </ul>\n    <form class=\"form-inline my-2 my-lg-0\">\n      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n  </div>\n</nav>\n"
+module.exports = "<mat-toolbar color=\"primary\">\n  <mat-toolbar-row>\n    <button mat-icon-button [matMenuTriggerFor]=\"vertic\">\n      <mat-icon>menu</mat-icon>\n    </button>\n\n    <mat-menu #vertic=\"matMenu\">\n\n    </mat-menu>\n    <span>CBS3 </span>\n\n    <div fxFlex fxLayout fxLayoutAlign=\"flex-end\">\n      <ul fxLayout fxLayoutGap=\"20px\">\n        <li fxHide.xs>\n          <button mat-icon-button>\n            <mat-icon>settings</mat-icon>\n          </button>\n        </li>\n\n        <li fxHide.xs>\n          <button mat-icon-button>\n            <mat-icon>notification_important</mat-icon>\n          </button>\n        </li>\n\n        <li>\n          <button mat-icon-button [matMenuTriggerFor]=\"auth\">\n            <mat-icon>person_outline</mat-icon>\n          </button>\n          <mat-menu #auth=\"matMenu\">\n            <button mat-menu-item>\n              <mat-icon>exit_to_app</mat-icon>\n              <span>Sign out</span>\n            </button>\n          </mat-menu>\n        </li>\n      </ul>\n    </div>\n  </mat-toolbar-row>\n</mat-toolbar>\n"
 
 /***/ }),
 
@@ -514,7 +688,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Angular 4\myapp\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /workspace/MyDemoApp/src/main.ts */"./src/main.ts");
 
 
 /***/ })
