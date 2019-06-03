@@ -57,7 +57,7 @@ import {
 } from '@angular/material';
 import { LoginComponent } from './CBS3/login/login.component';
 import { BagsColorCodeComponent } from './CBS3/bags-color-code/bags-color-code.component';
-import { SidenavComponent } from './CBS3/sidenav/sidenav.component';
+import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
 
 
 
@@ -69,7 +69,8 @@ import { SidenavComponent } from './CBS3/sidenav/sidenav.component';
     PlantrecipelogComponent,
     LoginComponent,
     BagsColorCodeComponent,
-    SidenavComponent
+    MenuListItemComponent
+
   ],
   imports: [
     FlexLayoutModule,
